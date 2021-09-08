@@ -12947,8 +12947,13 @@ ul.typeahead-list  > li > a.pull-right {
 /*# sourceMappingURL=style.min.css.map */
     </style>
 <style type="text/css">
-    .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; }
+    pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
@@ -13056,25 +13061,6 @@ ul.typeahead-list  > li > a.pull-right {
 .ansi-bold { font-weight: bold; }
 
     </style>
-<style type="text/css">
-    body[data-notebook-name] > #header #header-container:not(.show-panel), /* body has data-notebook-name attribute when 
-a notebook is open. this rule won't be applied when the notebook is not open (in 404 view for example) */
-body[data-notebook-name] #menubar-container #maintoolbar:not(.show-panel),
-body[data-notebook-name] #menubar-container ul.navbar-nav:not(.show-panel) {
-  display: none;
-}
-
-#menubar.only-panel #menus.navbar-default {
-    background: #fff;
-    border-color: #fff;
-}
-
-.toolbar.with-statusbar{
-    margin-top: 3px;
-    margin-bottom: 0;
-}
-
-    </style>
 
 
 <style type="text/css">
@@ -13108,7 +13094,7 @@ div#notebook {
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -13186,11 +13172,11 @@ Unzip the folder and place it in this project's home directory, at the location 
 <span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">import</span> <span class="nn">torch.optim</span> <span class="k">as</span> <span class="nn">optim</span>
 <span class="kn">import</span> <span class="nn">torchvision</span> <span class="k">as</span> <span class="nn">torchv</span>
-<span class="kn">from</span> <span class="nn">PIL</span> <span class="k">import</span> <span class="n">Image</span>
-<span class="kn">from</span> <span class="nn">torchvision</span> <span class="k">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">models</span><span class="p">,</span> <span class="n">transforms</span>
+<span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">torchvision</span> <span class="kn">import</span> <span class="n">datasets</span><span class="p">,</span> <span class="n">models</span><span class="p">,</span> <span class="n">transforms</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">matplotlib.image</span> <span class="k">as</span> <span class="nn">mpimg</span>
-<span class="kn">from</span> <span class="nn">torch.utils.data.sampler</span> <span class="k">import</span> <span class="n">SubsetRandomSampler</span>
+<span class="kn">from</span> <span class="nn">torch.utils.data.sampler</span> <span class="kn">import</span> <span class="n">SubsetRandomSampler</span>
 
 <span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="nn">nn</span>
 <span class="kn">import</span> <span class="nn">torch.nn.functional</span> <span class="k">as</span> <span class="nn">F</span>
@@ -13324,7 +13310,8 @@ Unzip the folder and place it in this project's home directory, at the location 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>:</p>
+<p><strong>Answer</strong>: A1: the training images are resized to 512x512, then cropped from the center 224x224 pixels, it may have been better if was cropped from a random position to simulate a larger dataset, and for the validation and test datasets they are resized to 400x400 then cropped from the center 224x224 pixels.</p>
+<p>A2: the augmentation applied to the training set was random rotation with max 15 degrees, random horizontal flip, and random resized crop was used from resizing</p>
 
 </div>
 </div>
@@ -13456,7 +13443,7 @@ Unzip the folder and place it in this project's home directory, at the location 
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># define the CNN architecture</span>
 <span class="k">class</span> <span class="nc">Net</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
     <span class="c1">## TODO: choose an architecture, and complete the class</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="nb">super</span><span class="p">(</span><span class="n">Net</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
         
         <span class="c1">## Define layers of a CNN</span>
@@ -13598,7 +13585,9 @@ Unzip the folder and place it in this project's home directory, at the location 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> kernal size used for all convolutional layers were 3x3, as when I choose 5x5 the gpu goes out of memory, 5 convilutional layers was used to be followed by a pooling layer to to extract deeper features gradually, and for the fully connected layers 4 layers was used to take the vector size down from 12544 (7x7x256) to 50 (number of classes).</p>
+<p>About the learning rate, at first, I started with lr=0.001, and when I finally saw the training progress and the validation loss starting to drop by each epoch, I increased the learning rate up to 0.003, and it started to train much faster.</p>
+<p>Note: I used batch normalization after I was struggling to build a CNN that trains by the time then I saw recommendations to add batch normalization after each layer.</p>
 
 </div>
 </div>
@@ -14153,7 +14142,7 @@ Test Accuracy: 22% (278/1250)
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> I searched for the best CNN's to use for the problem here (image classification) and the VGG16 was one of the recommended CNN's, then used it as my trained CNN with output vector of size 50, and with training for only 2 epochs the model had an accuracy of 65%, which was sufficient for this problem.</p>
 
 </div>
 </div>
@@ -14334,13 +14323,13 @@ Test Accuracy: 65% (815/1250)
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>
-<span class="kn">from</span> <span class="nn">PIL</span> <span class="k">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
 
 <span class="c1">## the class names can be accessed at the `classes` attribute</span>
 <span class="c1">## of your dataset object (e.g., `train_dataset.classes`)</span>
 
 
-<span class="n">classes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Haleakala National Park&#39;</span><span class="p">,</span> <span class="s1">&#39;Mount Rainier National_Park&#39;</span><span class="p">,</span>
+<span class="n">classes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Haleakala National Park&#39;</span><span class="p">,</span> <span class="s1">&#39;Mount Rainier National Park&#39;</span><span class="p">,</span>
             <span class="s1">&#39;Ljubljana Castle&#39;</span><span class="p">,</span> <span class="s1">&#39;Dead Sea&#39;</span><span class="p">,</span> <span class="s1">&#39;Wroclaws Dwarves&#39;</span><span class="p">,</span> 
             <span class="s1">&#39;London Olympic Stadium&#39;</span><span class="p">,</span> <span class="s1">&#39;Niagara Falls&#39;</span><span class="p">,</span> <span class="s1">&#39;Stonehenge&#39;</span><span class="p">,</span>
             <span class="s1">&#39;Grand Canyon&#39;</span><span class="p">,</span> <span class="s1">&#39;Golden Gate Bridge&#39;</span><span class="p">,</span> <span class="s1">&#39;Edinburgh Castle&#39;</span><span class="p">,</span>
@@ -14510,6 +14499,13 @@ Golden Gate Bridge, Forth Bridge, or Sydney Harbour Bridge?
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> (Three possible points for improvement)</p>
+<p>A1: The output is better than I expected as it got the four random pictures right, and now the model knows more landmarks than I do :D</p>
+<p>A2:</p>
+<ol>
+<li>The model can be trained for more epochs (not just 2) to get better accuracy.</li>
+<li>The augmentation used for the training dataset could be more than what has been applied above, could include more rotation range, crop from random positions not just from the center, randomly change the light intensity could be added.</li>
+<li>Could have used a much deeper pre-trained model that may also have larger input image dimensions, to reach much better accuracy.</li>
+</ol>
 
 </div>
 </div>

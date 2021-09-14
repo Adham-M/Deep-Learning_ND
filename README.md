@@ -1,15 +1,20 @@
 # Deep-Learning_ND
 Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
+
 <br>
 
 ## Projects
+#### **PROJECT 1: Predicting Bike-Sharing Patterns - Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/tree/main/Neural%20Networks/%23%20Predicting%20Bike-Sharing%20Patterns%20-%20NN%20Project)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/%23%20Predicting%20Bike-Sharing%20Patterns%20-%20NN%20Project/Predicting_bike_sharing_data.ipynb)) 
+#### **PROJECT 2: Image Classification - Convolutional Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/tree/main/Convolutional%20Neural%20Networks/%23%20CNN%20Project%20-%20landmark%20classifier)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/%23%20CNN%20Project%20-%20landmark%20classifier/landmark.ipynb)) 
 
-#### **PROJECT 2: Image Classification Convolutional Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/tree/main/Convolutional%20Neural%20Networks/%23%20CNN%20Project%20-%20landmark%20classifier)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/%23%20CNN%20Project%20-%20landmark%20classifier/landmark.ipynb)) 
+<br>
 
 ## Lessons
 
 ### Neural Networks
-
+* Sentiment Classification Projects ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Sentiment%20Classification%20Projects/Sentiment_Classification_Projects.ipynb)) 
+* MLP Classification, MNIST ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/MLP%20Classification%2C%20MNIST/mnist_mlp_exercise.ipynbb)) 
+* Linear Autoencoder ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Linear%20Autoencoder/Simple_Autoencoder_Exercise.ipynb)) 
 
 ### Convolutional Neural Networks
 * CNN for CIFAR Image Classification ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/CNN%20for%20CIFAR%20Image%20Classification/cifar10_cnn_exercise.ipynb))

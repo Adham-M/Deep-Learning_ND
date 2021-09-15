@@ -26,3 +26,4 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
 * Character-Level RNN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Character-Level%20RNN/Character_Level_RNN_Exercise.ipynb))
 * Word2Vec, SkipGram ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Word2Vec/Skip_Grams_Exercise.ipynb))
 * Word2Vec, Negative Sampling ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Word2Vec/Negative_Sampling_Exercise.ipynb))
+* Sentiment Analysis RNN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Sentiment%20Analysis%20RNN/Sentiment_RNN_Exercise.ipynb))

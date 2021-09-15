@@ -1,0 +1,9 @@
+download "reviews.txt" from https://github.com/udacity/deep-learning-v2-pytorch/blob/master/sentiment-rnn/data/reviews.txt
+download "labels.txt" from https://github.com/udacity/deep-learning-v2-pytorch/blob/master/sentiment-rnn/data/labels.txt
+
+how to download
+
+1. Go to the file you want to download.
+2. Click it to view the contents within the GitHub UI.
+3. In the top right, left click the Raw button (if download button unavailable)
+4. right click then Save as...

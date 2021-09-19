@@ -30,3 +30,6 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
 * Word2Vec, Negative Sampling ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Word2Vec/Negative_Sampling_Exercise.ipynb))
 * Sentiment Analysis RNN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Sentiment%20Analysis%20RNN/Sentiment_RNN_Exercise.ipynb))
 * Attention Basics ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Attention%20Basics/Attention%20Basics.ipynb))
+
+### Generative Adversarial Networks
+* MNIST GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/MNIST%20GAN/MNIST_GAN_Exercise.ipynb))

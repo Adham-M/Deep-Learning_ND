@@ -15,7 +15,7 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
 
 ### Neural Networks
 * Sentiment Classification Projects ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Sentiment%20Classification%20Projects/Sentiment_Classification_Projects.ipynb)) 
-* MLP Classification, MNIST ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/MLP%20Classification%2C%20MNIST/mnist_mlp_exercise.ipynbb)) 
+* MLP Classification, MNIST ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/MLP%20Classification%2C%20MNIST/mnist_mlp_exercise.ipynb)) 
 * Linear Autoencoder ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Linear%20Autoencoder/Simple_Autoencoder_Exercise.ipynb)) 
 
 ### Convolutional Neural Networks

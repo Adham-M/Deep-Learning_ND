@@ -33,3 +33,4 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
 
 ### Generative Adversarial Networks
 * MNIST GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/MNIST%20GAN/MNIST_GAN_Exercise.ipynb))
+* DCGAN for SVHN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/DCGAN%2C%20for%20SVHN/DCGAN_Exercise.ipynb))

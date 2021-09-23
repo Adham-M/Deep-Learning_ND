@@ -5,8 +5,9 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
 
 ## Projects
 #### **PROJECT 1: Predicting Bike-Sharing Patterns - Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/tree/main/Neural%20Networks/%23%20Predicting%20Bike-Sharing%20Patterns%20-%20NN%20Project)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/%23%20Predicting%20Bike-Sharing%20Patterns%20-%20NN%20Project/Predicting_bike_sharing_data.ipynb)) 
-#### **PROJECT 2: Image Classification - Convolutional Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/tree/main/Convolutional%20Neural%20Networks/%23%20CNN%20Project%20-%20landmark%20classifier)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/%23%20CNN%20Project%20-%20landmark%20classifier/landmark.ipynb)) 
+#### **PROJECT 2: Image Classification - Convolutional Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/%23%20Landmark%20Classifier%20-%20CNN%20Project)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/%23%20Landmark%20Classifier%20-%20CNN%20Project/landmark.ipynb)) 
 #### **PROJECT 3: TV Script Genrator - Recurrent Neural Network** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/tree/main/Recurrent%20Neural%20Networks/%23%20TV%20Script%20Genrator%20-%20RNN%20Project)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/%23%20TV%20Script%20Genrator%20-%20RNN%20Project/dlnd_tv_script_generation.ipynb)) 
+#### **PROJECT 4: Faces Genrator - Generative Adversarial Networks** ([Repo](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/%23%20Face%20Generation%20-%20GAN%20Project)) ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/%23%20Face%20Generation%20-%20GAN%20Project/dlnd_face_generation.ipynb)) 
 
 
 <br>

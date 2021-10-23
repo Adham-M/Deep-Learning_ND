@@ -1,5 +1,5 @@
 # Deep-Learning_ND
-Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree <b>(Appendix below)</b>
+Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree.
 
 ## Table of Contents
 

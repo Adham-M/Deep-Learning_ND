@@ -24,6 +24,7 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree
 * Transfer Learning ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/Transfer%20Learning%2C%20on%20Flowers/Transfer_Learning_Exercise.ipynb))
 * Convolutional Autoencoder ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/Convolutional%20Autoencoder/Convolutional_Autoencoder_Exercise.ipynb))
 * De-noising Autoencoder ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/De-noising%20Autoencoder/Denoising_Autoencoder_Exercise.ipynb))
+* Style Transfer ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/Style%20Transfer/Style_Transfer_Exercise.ipynb))
 
 ### Recurrent Neural Networks
 * Character-Level RNN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Character-Level%20RNN/Character_Level_RNN_Exercise.ipynb))

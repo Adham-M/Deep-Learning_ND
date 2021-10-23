@@ -3,7 +3,7 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree 
 
 ## Table of Contents
 
-* [Deep Learning Nanodegree Certificate](#Certificate)
+* [Certificate](#deep-learning-nanodegree-certificate)
 * [Projects](#Projects)
 * [Lessons](#Lessons)
 

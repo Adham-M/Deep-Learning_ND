@@ -1,12 +1,20 @@
 # Deep-Learning_ND
 Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree <b>(Appendix below)</b>
 
- **Nanodegree Link:**
-> https://www.udacity.com/course/deep-learning-nanodegree--nd101
+## Table of Contents
 
-## Computer Vision Nanodegree Certificate
+* [Deep Learning Nanodegree Certificate](#Certificate)
+* [Projects](#Projects)
+* [Lessons](#Lessons)
+
+
+
+## Deep Learning Nanodegree Certificate
 
 ![DL-certificate](https://user-images.githubusercontent.com/57719752/138567992-2fb43f62-346b-4150-a174-220e1a65351b.png)
+
+ **Nanodegree Link:**
+> https://www.udacity.com/course/deep-learning-nanodegree--nd101
 
 <br>
 

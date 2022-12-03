@@ -33,6 +33,7 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree.
 * Sentiment Classification Projects ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Sentiment%20Classification%20Projects/Sentiment_Classification_Projects.ipynb)) 
 * MLP Classification, MNIST ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/MLP%20Classification%2C%20MNIST/mnist_mlp_exercise.ipynb)) 
 * Linear Autoencoder ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Linear%20Autoencoder/Simple_Autoencoder_Exercise.ipynb)) 
+* Variational Autoencoders ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Neural%20Networks/Variational%20Autoencoders/Variational%20Autoencoders%20on%20Poor%20Sevens.ipynb))
 
 ### Convolutional Neural Networks
 * CNN for CIFAR Image Classification ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Convolutional%20Neural%20Networks/CNN%20for%20CIFAR%20Image%20Classification/cifar10_cnn_exercise.ipynb))
@@ -47,8 +48,11 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree.
 * Word2Vec, Negative Sampling ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Word2Vec/Negative_Sampling_Exercise.ipynb))
 * Sentiment Analysis RNN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Sentiment%20Analysis%20RNN/Sentiment_RNN_Exercise.ipynb))
 * Attention Basics ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/Attention%20Basics/Attention%20Basics.ipynb))
+* RNN as a Generative Model ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Recurrent%20Neural%20Networks/RNN%20as%20a%20Generative%20Model/RNNs%20as%20a%20generative%20model.ipynb))
 
 ### Generative Adversarial Networks
 * MNIST GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/MNIST%20GAN/MNIST_GAN_Exercise.ipynb))
 * DCGAN for SVHN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/DCGAN%2C%20for%20SVHN/DCGAN_Exercise.ipynb))
 * CycleGAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/CycleGAN/CycleGAN_Exercise.ipynb))
+* Conditional GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/Conditional%20GANs/Conditional%20GAN.ipynb))
+* Missing Value Imputation Usong Conditional GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/Conditional%20GANs/Missing%20Value%20Imputation%20Usong%20Conditional%20GAN.ipynb))

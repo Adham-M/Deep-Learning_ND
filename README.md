@@ -55,4 +55,4 @@ Coding exercises from the various lessons in Udacity's Deep Learning Nanodegree.
 * DCGAN for SVHN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/DCGAN%2C%20for%20SVHN/DCGAN_Exercise.ipynb))
 * CycleGAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/CycleGAN/CycleGAN_Exercise.ipynb))
 * Conditional GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/Conditional%20GANs/Conditional%20GAN.ipynb))
-* Missing Value Imputation Usong Conditional GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/Conditional%20GANs/Missing%20Value%20Imputation%20Usong%20Conditional%20GAN.ipynb))
+* Missing Value Imputation Using Conditional GAN ([Notebook](https://github.com/Adham-M/Deep-Learning_ND/blob/main/Generative%20Adversarial%20Networks/Conditional%20GANs/Missing%20Value%20Imputation%20Usong%20Conditional%20GAN.ipynb))
